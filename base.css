@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0a3139; /* Bleu très foncé du logo */
+  --secondary-color: #1b749c; /* Bleu intermédiaire */
+  --accent-color: #c9c9c9; /* Gris clair */
+  --white: #f8f9fa;
+  --black: #121212;
+}
