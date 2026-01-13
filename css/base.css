@@ -17,7 +17,7 @@ body {
   color: var(--black);
 }
 main,footer {
-  animation: fade 0.7s ease-out;
+  animation: fade 0.9s ease-out;
 }
 @keyframes fade {
   0% {

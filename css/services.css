@@ -66,6 +66,8 @@ main {
 }
 
 .cta_request:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
   transform: translateY(-3px);
   box-shadow: 0 15px 35px rgba(10, 49, 57, 0.45);
 }
