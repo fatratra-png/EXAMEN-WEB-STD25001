@@ -76,7 +76,7 @@ main {
 }
 .network_main img {
   height: auto;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .network {
@@ -101,7 +101,7 @@ main {
   color: var(--primary-color);
 }
 .about_text p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: var(--black);
   line-height: 1.6;
 }
