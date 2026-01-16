@@ -1,0 +1,146 @@
+.contact_main {
+  margin-top: 90px;
+
+  display: grid;
+  grid-template-columns: 1fr 1.2 fr;
+  gap: 4rem;
+  padding: 5rem 6%;
+  background-color: var(--white);
+}
+.contact_left h2 {
+  font-size: 4.5rem;
+  line-height: 1.15;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.cta_contact {
+  display: inline-block;
+  padding: 20px 34px;
+  border-radius: 20px;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+  text-decoration: none;
+  width: fit-content;
+}
+.intro {
+  max-width: 420px;
+  color: var(--black);
+  opacity: 0.8;
+  line-height: 1.6;
+  font-size: 1.5rem;
+}
+span {
+  color: var(--secondary-color);
+}
+.manual {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+}
+.inner_column {
+  display: flex;
+  flex-direction: column;
+}
+.main_row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.manual a {
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+
+.extra_blocks {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.extra_card {
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: var(--white);
+  /* max-width: 800px; */
+}
+.extra_card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.extra_card p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
+.extra_link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  background-color: var(--white);
+}
+
+.contact_form {
+  background-color: var(--white);
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+}
+.form_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+textarea {
+  resize: none;
+  height: 120px;
+  margin: 1.5rem 0;
+}
+::placeholder {
+  font-size: 0.95rem;
+  font-weight: bolder;
+}
+
+button {
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background-color: var(--primary-color);
+}
