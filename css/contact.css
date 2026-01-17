@@ -26,6 +26,12 @@
   margin-top: 20px;
   text-decoration: none;
   width: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+.cta_contact:hover{
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+
 }
 .intro {
   max-width: 420px;
@@ -89,8 +95,11 @@ span {
   padding: 10px 20px;
   border-radius: 7px;
   background-color: var(--white);
+  transition: all 0.3s ease-in-out;
 }
-
+.extra_link:hover{
+  transform: scaleY(1.05);
+}
 .contact_form {
   background-color: var(--white);
   padding: 3rem;
