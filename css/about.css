@@ -1,0 +1,336 @@
+/* ==========================================================================
+   about.css - Page À propos (BLIT)
+   Basé sur base.css + contraintes demandées
+   ========================================================================== */
+
+main.main_about {
+    margin: 150px auto;
+    max-width: 1300px;
+    padding: 0 25px;
+}
+
+/* --------------------------------------------------
+   TYPOGRAPHIE GLOBALE TITRES (contrainte 2rem + 800)
+   -------------------------------------------------- */
+main h2,
+main h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    line-height: 1.25;
+    margin-bottom: 1.4rem;
+}
+
+main h4 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.9rem;
+}
+
+/* --------------------------------------------------
+   HERO
+   -------------------------------------------------- */
+.hero {
+    text-align: center;
+    padding: 40px 0 80px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #eef4f8 100%);
+    border-radius: 16px;
+    margin-bottom: 60px;
+}
+
+.hero_inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero_text h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero_text p {
+    font-size: 1.25rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+}
+
+.hero_cta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn_1, .btn_2 {
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.btn_1 {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.btn_1:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.btn_2 {
+    background: white;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.btn_2:hover {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.hero_stats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat strong {
+    display: block;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+    line-height: 1;
+}
+
+.stat span {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* --------------------------------------------------
+   TRUSTED BY (logos)
+   -------------------------------------------------- */
+.trust {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.trust h3 {
+    margin-bottom: 50px;
+}
+
+.trust img {
+    height: 50px;
+    margin: 0 35px;
+    filter: grayscale(100%);
+    opacity: 0.75;
+    transition: all 0.3s;
+}
+
+.trust img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+/* --------------------------------------------------
+   WHO WE HELP + EXPERTISE + WHY + PROCESS (grilles similaires)
+   -------------------------------------------------- */
+.who-we-help,
+.expertise,
+.why-blit,
+.process {
+    margin: 100px 0;
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 760px;
+    margin: 0 auto 50px;
+    line-height: 1.7;
+}
+
+.help-grid,
+.expertise-grid,
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.help-card,
+.expertise-item,
+.why-grid > div {
+    background: white;
+    border-radius: 12px;
+    padding: 35px 30px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.help-card:hover,
+.expertise-item:hover,
+.why-grid > div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.1);
+}
+
+/* PROCESS steps (style linéaire ou horizontal) */
+.process-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.step {
+    flex: 1;
+    min-width: 220px;
+    background: var(--secondary-color);
+    color: white;
+    padding: 24px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+/* --------------------------------------------------
+   KPI (impact numbers)
+   -------------------------------------------------- */
+.kpi {
+    margin: 120px 0;
+    text-align: center;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.kpi-card {
+    background: #f8f9fa;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.kpi-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.kpi-card strong {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.kpi-card span {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* --------------------------------------------------
+   PROJECTS (réalisations)
+   -------------------------------------------------- */
+.projects {
+    margin: 120px 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 35px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-card div {
+    padding: 24px;
+}
+
+.project-card h4 {
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* --------------------------------------------------
+   CTA FINAL
+   -------------------------------------------------- */
+.about-cta {
+    text-align: center;
+    padding: 100px 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 24px;
+    margin: 140px 0 100px;
+}
+
+.about-cta h2 {
+    color: white;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-cta p {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+}
+
+.btn-primary {
+    background: var(--secondary-color);
+    color: white;
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0d5a7a;
+    transform: translateY(-3px);
+}
