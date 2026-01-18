@@ -322,7 +322,10 @@ main .hero h3 {
 .about-cta {
   text-align: center;
   padding: 100px 40px;
-  background: var(--primary-color);
+  background-image: url(/assets/background/background_about.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
   border-radius: 24px;
   margin: 140px 0 100px;
