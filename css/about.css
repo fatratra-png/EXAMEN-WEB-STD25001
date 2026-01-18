@@ -402,7 +402,6 @@ main .hero h3 {
   }
 }
 @media (max-width: 768px) {
-
   /* ===========================
      HERO (déjà partiel)
   =========================== */
@@ -588,4 +587,3 @@ main .hero h3 {
     margin-inline: 15px;
   }
 }
-
