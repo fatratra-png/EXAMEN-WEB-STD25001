@@ -71,22 +71,6 @@
 .cta_request:hover {
   background-color: var(--secondary-color);
 }
-/* .network_main {
-  margin-top: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* .network_main img {
-  height: auto;
-  opacity: 1;
-}
-
-.network {
-  filter: blur(1.5px);
-  opacity: 0.8;
-} */
 .about {
   display: flex;
   flex-direction: row;
