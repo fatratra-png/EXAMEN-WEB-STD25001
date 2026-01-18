@@ -274,7 +274,7 @@
   border-radius: 10px;
 }
 
-/* @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .main_title {
     font-size: 2.5rem;
   }
@@ -287,25 +287,5 @@
   .main_description {
     font-size: 1rem;
   }
-  .navbar {
-    gap: 2ch;
-    padding: 10px 20px;
-  }
-  .log_n_sign {
-    gap: 1.5ch;
-  }
-}
-@media (max-width: 480px) {
-  header {
-    flex-direction: column;
-    gap: 10px;
-  }
-  nav {
-    justify-content: center;
-  }
-  .main_title {
-    font-size: 2rem;
-  }
-  .main_blit {
-    font-size: 3rem;
-  }    */
+
+ }
