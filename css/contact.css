@@ -164,4 +164,135 @@ button:hover {
   font-weight: 800;
   font-size: 1rem;
 }
+@media (max-width: 768px) {
+
+  .contact_main {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 2.5rem 6%;
+    margin-top: 70px;
+  }
+
+  .contact_left h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  .intro {
+    font-size: 1.15rem;
+    max-width: 100%;
+  }
+
+  .cta_contact {
+    width: 100%;
+    text-align: center;
+    padding: 16px 20px;
+    font-size: 1rem;
+  }
+
+  .main_row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .illustration {
+    width: 100%;
+    border-radius: 18px;
+    height: auto;
+  }
+
+  .extra_blocks {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_form {
+    padding: 2rem;
+  }
+
+  .form_row {
+    grid-template-columns: 1fr;
+  }
+
+  textarea {
+    height: 140px;
+  }
+
+  .submit_button,
+  .undo_button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .extra_card {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+
+  .main_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.5rem 6%;
+    text-align: left;
+  }
+
+  .main_footer .part1,
+  .main_footer .part2,
+  .main_footer .part3,
+  .main_footer .part4 {
+    margin: 0;
+  }
+
+  .main_footer .part2 ul,
+  .main_footer .part3 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .main_footer .part2 li,
+  .main_footer .part3 li {
+    margin-bottom: 0.8rem;
+  }
+
+  .end_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 6%;
+    text-align: left;
+  }
+
+  .newsletter {
+    width: 100%;
+  }
+
+  .newsletter input {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .newsletter button {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .social_media {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .social_media_logos {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 1.5rem 6%;
+  }
+}
 

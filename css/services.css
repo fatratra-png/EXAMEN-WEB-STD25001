@@ -135,7 +135,7 @@ main {
   font-size: 3rem;
   font-weight: 800;
 }
-.services_presentation_intro_p{
+.services_presentation_intro_p {
   font-size: 1.5rem;
 }
 /* IMAGES */
@@ -196,4 +196,146 @@ main {
   .pictures {
     grid-template-columns: 1fr;
   }
+}
+@media (max-width: 768px) {
+  /* ======================
+     HEADER / NAVBAR
+  ====================== */
+  header {
+    padding: 10px 15px;
+  }
+
+  .blit_logo img {
+    height: 55px;
+  }
+
+  .navbar {
+    padding: 2.5rem 1.5rem;
+    gap: 1.2rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  /* ======================
+     DISCOVER SERVICES
+  ====================== */
+  .discover_services {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 6rem 1.5rem 2rem;
+  }
+
+  .discover_services_intro h3 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .discover_services_intro_p p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .cta_linkedin {
+    justify-content: center;
+  }
+
+  /* ======================
+     REMOVE IMAGES ON MOBILE
+  ====================== */
+  .pictures {
+    display: none;
+  }
+
+  /* ======================
+     SERVICES SECTION
+  ====================== */
+  .services {
+    padding: 2rem 1.5rem;
+  }
+
+  .services_presentation_intro h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .services_presentation_intro_p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .services_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .services_card {
+    padding: 1.5rem;
+    border-radius: 15px;
+  }
+
+  /* ======================
+     BLIT SECTIONS
+  ====================== */
+  .blit-section {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .blit-section .blit-visual {
+    display: none; /* remove images on mobile */
+  }
+
+  .blit-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .blit-content p {
+    font-size: 1rem;
+  }
+
+  .blit-features {
+    font-size: 0.95rem;
+  }
+
+  /* ======================
+     FOOTER
+  ====================== */
+  footer {
+    padding: 40px 20px;
+  }
+
+  .main_footer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .end_footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter input {
+    width: 100%;
+  }
+
+  .newsletter button {
+    width: 100%;
+  }
+
+  .social_media {
+    justify-content: center;
+  }
+
+
 }

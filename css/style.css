@@ -289,3 +289,194 @@
   }
 
  }
+ @media (max-width: 768px) {
+
+  /* ========== HEADER ========== */
+  header {
+    padding: 10px 15px;
+  }
+
+  .blit_logo img {
+    height: 55px;
+  }
+
+  .navbar {
+    padding: 2.5rem 1.5rem;
+    gap: 1.2rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  /* Hamburger already exists in nav_footer.css */
+  /* Just keep it responsive */
+
+  /* ========== MAIN HERO ========== */
+  .index_main {
+    padding: 10rem 20px 3rem; /* push content down (header fixed) */
+    min-height: 80vh;
+    background-size: cover;
+  }
+
+  .main_title {
+    font-size: 2.5rem;
+  }
+
+  .main_blit {
+    font-size: 4rem;
+  }
+
+  .main_subtitle {
+    font-size: 1.5rem;
+  }
+
+  .main_description {
+    font-size: 1rem;
+  }
+
+  .main_cta {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta_services,
+  .cta_request {
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+  }
+
+  /* ========== ABOUT SECTION ========== */
+  .about {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .about_text h2 {
+    font-size: 2rem;
+  }
+
+  .about_text p {
+    font-size: 1rem;
+  }
+
+  .about_image {
+    display: none; /* REMOVE IMAGE ON MOBILE */
+  }
+
+  .about_cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ========== WHY TRUST SECTION ========== */
+  .why_trust {
+    padding: 30px 20px;
+    margin: 30px 15px;
+    border-radius: 25px;
+  }
+
+  .why_trust h2 {
+    font-size: 2rem;
+  }
+
+  .why_trust p {
+    font-size: 1rem;
+  }
+
+  .why_trust ul {
+    grid-template-columns: 1fr;
+  }
+
+  /* ========== SERVICES SECTION ========== */
+  .services {
+    padding: 30px 20px;
+    margin-block: 30px;
+  }
+
+  .services h2 {
+    font-size: 2rem;
+  }
+
+  .services_grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .services_card {
+    padding: 25px 15px;
+  }
+
+  .services_card h3 {
+    font-size: 1.25rem;
+  }
+
+  .services_card p {
+    font-size: 0.95rem;
+  }
+
+  .services_card i {
+    font-size: 2.5rem;
+  }
+
+  .cta_more_services {
+    width: 100%;
+    text-align: center;
+    position: static;
+    margin-top: 20px;
+  }
+
+  /* ========== SATISFIED PARTNERS ========== */
+  .satisfied_partners {
+    padding: 30px 20px;
+    margin: 30px 15px 40px;
+    border-radius: 25px;
+  }
+
+  .satisfied_partners h2 {
+    font-size: 2rem;
+  }
+
+  .partners_logos {
+    gap: 20px;
+  }
+
+  .partners_logos .logo {
+    flex: 0 1 120px;
+  }
+
+  .partners_logos .logo img {
+    max-width: 120px;
+  }
+
+  /* ========== FOOTER ========== */
+  footer {
+    padding: 40px 20px;
+  }
+
+  .main_footer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .end_footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter input,
+  .newsletter button {
+    width: 100%;
+  }
+
+  .social_media {
+    justify-content: center;
+  }
+}
