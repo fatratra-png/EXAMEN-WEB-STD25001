@@ -1,8 +1,3 @@
-/* ==========================================================================
-   about.css - Page À propos (BLIT)
-   Basé sur base.css + contraintes demandées
-   ========================================================================== */
-
 .main_about {
   margin-top: 100px;
   text-align: center;
@@ -10,9 +5,7 @@
 .main_about > *:not(.hero) {
   margin-inline: 40px;
 }
-/* --------------------------------------------------
-   TYPOGRAPHIE GLOBALE TITRES (contrainte 2rem + 800)
-   -------------------------------------------------- */
+
 main h2,
 main h3 {
   font-size: 2rem;
@@ -31,12 +24,9 @@ main h4 {
 
 main .hero h3 {
   text-shadow: 0 0 30px var(--white);
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
-/* --------------------------------------------------
-   HERO
-   -------------------------------------------------- */
 .hero {
   text-align: center;
   padding: 40px 0 80px;
@@ -586,4 +576,5 @@ main .hero h3 {
   .main_about > *:not(.hero) {
     margin-inline: 15px;
   }
+  
 }

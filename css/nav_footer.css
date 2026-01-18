@@ -348,4 +348,5 @@ footer hr {
   #menu-toggle:checked + .hamburger + .navbar {
     display: flex;
   }
+  
 }
