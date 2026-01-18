@@ -10,6 +10,8 @@
   --accent-color: #c9c9c9; /* Gris clair */
   --white: #f8f9fa;
   --black: #121212;
+
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Montserrat", sans-serif;
