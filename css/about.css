@@ -576,5 +576,31 @@ main .hero h3 {
   .main_about > *:not(.hero) {
     margin-inline: 15px;
   }
-  
+    footer {
+    padding: 40px 20px;
+  }
+
+  .main_footer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .end_footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter input,
+  .newsletter button {
+    width: 100%;
+  }
+
+  .social_media {
+    justify-content: center;
+  }
 }
