@@ -116,7 +116,7 @@ footer {
   gap: 10px;
   margin-top: 10px;
   background-color: var(--secondary-color);
-width: fit-content;
+  width: fit-content;
   padding: 15px 12px;
   border-radius: 6px;
   cursor: pointer;
@@ -160,7 +160,9 @@ width: fit-content;
   text-decoration: none;
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.75);
-  transition: color 0.3s, transform 0.3s;
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 .part2 a:hover,
@@ -260,7 +262,9 @@ footer hr {
   font-size: 1.4rem;
   cursor: pointer;
   color: var(--white);
-  transition: transform 0.3s, opacity 0.3s;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
 }
 
 .social_media_logos i:hover {
@@ -302,3 +306,48 @@ footer hr {
     grid-template-columns: 1fr;
   }
 }
+
+/*media query du navbar*/
+#menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        width: 25px;
+        height: 3px;
+        background: #000;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background: white;
+
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 2rem 0;
+
+        display: none;
+    }
+
+    /* quand on clique sur ☰ */
+    #menu-toggle:checked + .hamburger + .navbar {
+        display: flex;
+    }
+}
+
