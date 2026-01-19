@@ -30,7 +30,7 @@ main .hero h3 {
 .hero {
   text-align: center;
   padding: 40px 0 80px;
-  background-image: url(/assets/background/background_index.jpg);
+  background-image: url("../assets/background/background_index.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -312,7 +312,7 @@ main .hero h3 {
 .about-cta {
   text-align: center;
   padding: 100px 40px;
-  background-image: url(/assets/background/background_about.jpeg);
+  background-image: url("../assets/background/background_about.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
