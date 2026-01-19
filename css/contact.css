@@ -226,3 +226,42 @@ button:hover {
     padding: 1.5rem;
   }
 }
+/* =========================
+   CONTACT – TABLETTE
+========================= */
+@media (max-width: 1024px) {
+
+  .contact_main {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 4rem 6%;
+  }
+
+  .contact_left h2 {
+    font-size: 3.5rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+    max-width: 100%;
+  }
+
+  .main_row {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .illustration {
+    max-width: 520px;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .extra_blocks {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact_form {
+    padding: 2.5rem;
+  }
+}

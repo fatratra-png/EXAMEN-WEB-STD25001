@@ -274,7 +274,7 @@
   border-radius: 10px;
 }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .main_title {
     font-size: 2.5rem;
   }
@@ -287,10 +287,8 @@
   .main_description {
     font-size: 1rem;
   }
-
- }
- @media (max-width: 768px) {
-
+}
+@media (max-width: 768px) {
   /* ========== HEADER ========== */
   header {
     padding: 10px 15px;
@@ -450,33 +448,92 @@
   .partners_logos .logo img {
     max-width: 120px;
   }
-
-  /* ========== FOOTER ========== */
-  footer {
-    padding: 40px 20px;
+}
+/* =========================
+   TABLETTE (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+  /* ===== HERO ===== */
+  .index_main {
+    padding: 8rem 30px 4rem;
+    min-height: 85vh;
   }
 
-  .main_footer {
-    grid-template-columns: 1fr;
+  .main_title {
+    font-size: 3.5rem;
+  }
+
+  .main_blit {
+    font-size: 5rem;
+  }
+
+  .main_subtitle {
+    font-size: 1.7rem;
+  }
+
+  .main_description {
+    font-size: 1.2rem;
+  }
+
+  /* ===== ABOUT / WHO ARE WE ===== */
+  .about {
+    flex-direction: column;
+    padding: 40px 30px;
+    gap: 40px;
+  }
+
+  .about_text {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .about_text h2 {
+    font-size: 2.3rem;
+  }
+
+  .about_text p {
+    font-size: 1.1rem;
+  }
+
+  .about_image {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .about_image img {
+    margin: 0;
+    width: 900px;;
+  }
+
+  /* ===== WHY TRUST ===== */
+  .why_trust {
+    padding: 40px 30px;
+    margin: 40px 20px;
+  }
+
+  .why_trust ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ===== SERVICES ===== */
+  .services {
+    padding: 40px 30px;
+  }
+
+  .services_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ===== PARTNERS ===== */
+  .partners_logos {
     gap: 25px;
   }
 
-  .end_footer {
-    flex-direction: column;
-    align-items: center;
+  .partners_logos .logo {
+    flex: 0 1 130px;
   }
 
-  .newsletter {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .newsletter input,
-  .newsletter button {
-    width: 100%;
-  }
-
-  .social_media {
-    justify-content: center;
+  .partners_logos .logo img {
+    max-width: 130px;
   }
 }

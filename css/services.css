@@ -303,39 +303,68 @@ main {
     font-size: 0.95rem;
   }
 
-  /* ======================
-     FOOTER
-  ====================== */
-  footer {
-    padding: 40px 20px;
-  }
-
-  .main_footer {
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
-
-  .end_footer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .newsletter {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .newsletter input {
-    width: 100%;
-  }
-
-  .newsletter button {
-    width: 100%;
-  }
-
-  .social_media {
-    justify-content: center;
-  }
   
 
+}
+/* ===== TABLETTE (1024px) ===== */
+@media (max-width: 1024px) {
+
+  .discover_services {
+    padding: 4rem 5%;
+    grid-template-columns: 1fr;
+  }
+
+  .discover_services_intro h3 {
+    font-size: 2.4rem;
+  }
+
+  .pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .pictures_div1 {
+    width: 100%;
+    grid-row: span 1;
+  }
+
+  /* ===== SERVICES SECTION ===== */
+  .services_page {
+    padding: 3rem 5%;
+    gap: 2rem;
+  }
+
+  .services_presentation_intro {
+    text-align: center;
+  }
+
+  .services_presentation_intro h2 {
+    font-size: 2.4rem;
+  }
+
+  .services_presentation_intro_p {
+    font-size: 1.1rem;
+  }
+
+  .services_grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .cta_request_services_page {
+    display: block;
+    margin: 2rem auto 0;
+    width: fit-content;
+  }
+
+  /* ===== BLIT SECTIONS ===== */
+  .blit-section {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .blit-visual img {
+    height: auto;
+  }
 }

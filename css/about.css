@@ -604,3 +604,25 @@ main .hero h3 {
     justify-content: center;
   }
 }
+/* =========================
+   ABOUT – PARTNERS TABLET FIX
+========================= */
+@media (max-width: 1024px) {
+
+  .trust .trust_logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .trust .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trust img {
+    max-width: 120px;
+  }
+}

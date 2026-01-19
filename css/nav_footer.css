@@ -376,3 +376,21 @@ footer hr {
     justify-content: center;
   }
 }
+/* =========================
+   NAVBAR - TABLETTE
+========================= */
+@media (max-width: 1024px) {
+
+  header {
+    padding: 1.2rem 5%;
+  }
+
+  .navbar {
+    gap: 1.5rem;
+  }
+
+  .navbar a {
+    font-size: 0.95rem;
+  }
+}
+
