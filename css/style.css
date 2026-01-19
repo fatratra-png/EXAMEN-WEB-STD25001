@@ -453,46 +453,29 @@
    TABLETTE (≤1024px)
 ========================= */
 @media (max-width: 1024px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    max-width: 100%;
+  }
+
   /* ===== HERO ===== */
   .index_main {
     padding: 8rem 30px 4rem;
-    min-height: 85vh;
   }
 
-  .main_title {
-    font-size: 3.5rem;
-  }
-
-  .main_blit {
-    font-size: 5rem;
-  }
-
-  .main_subtitle {
-    font-size: 1.7rem;
-  }
-
-  .main_description {
-    font-size: 1.2rem;
-  }
-
-  /* ===== ABOUT / WHO ARE WE ===== */
+  /* ===== ABOUT ===== */
   .about {
     flex-direction: column;
     padding: 40px 30px;
-    gap: 40px;
   }
 
   .about_text {
     max-width: 900px;
     margin: 0 auto;
-  }
-
-  .about_text h2 {
-    font-size: 2.3rem;
-  }
-
-  .about_text p {
-    font-size: 1.1rem;
   }
 
   .about_image {
@@ -501,39 +484,68 @@
   }
 
   .about_image img {
-    margin: 0;
-    width: 900px;;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   /* ===== WHY TRUST ===== */
-  .why_trust {
-    padding: 40px 30px;
-    margin: 40px 20px;
-  }
-
   .why_trust ul {
     grid-template-columns: repeat(2, 1fr);
   }
 
   /* ===== SERVICES ===== */
-  .services {
-    padding: 40px 30px;
-  }
-
   .services_grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
   /* ===== PARTNERS ===== */
+  .satisfied_partners {
+    max-width: 100%;
+  }
+
   .partners_logos {
-    gap: 25px;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+}
+/* =========================
+   MOBILE (≤480px)
+========================= */
+@media (max-width: 480px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1, h2 {
+    word-wrap: break-word;
+  }
+
+  .index_main {
+    padding: 7rem 15px 3rem;
+  }
+
+  .main_title {
+    font-size: 2rem;
+  }
+
+  .main_blit {
+    font-size: 3rem;
+  }
+
+  .about_text,
+  .why_trust,
+  .services,
+  .satisfied_partners {
+    padding-inline: 15px;
   }
 
   .partners_logos .logo {
-    flex: 0 1 130px;
+    flex: 0 1 100px;
   }
 
   .partners_logos .logo img {
-    max-width: 130px;
+    max-width: 100px;
   }
 }
