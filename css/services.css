@@ -5,7 +5,7 @@ main {
   padding: 50px 30px;
 }
 
-/* ===== SECTIONS ===== */
+
 .blit-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -22,7 +22,7 @@ main {
   box-shadow: 0 30px 60px rgba(18, 18, 18, 0.25);
 }
 
-/* ===== CONTENT ===== */
+
 .blit-content h3 {
   font-size: 2rem;
   line-height: 1.2;
@@ -37,7 +37,6 @@ main {
   margin-bottom: 1.8rem;
 }
 
-/* ===== FEATURES ===== */
 .blit-features {
   list-style: none;
   display: grid;
@@ -50,7 +49,6 @@ main {
   opacity: 0.95;
 }
 
-/* ===== VISUAL ===== */
 .blit-visual {
   display: flex;
   justify-content: center;
@@ -71,7 +69,6 @@ main {
   box-shadow: 0 15px 35px rgba(10, 49, 57, 0.45);
 }
 
-/* ===== VARIATION SECTION 2 ===== */
 .blit-experience {
   background: linear-gradient(
     135deg,
@@ -80,7 +77,6 @@ main {
   );
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .blit-section {
     grid-template-columns: 1fr;
@@ -112,7 +108,6 @@ main {
 .cta_request_services_page:hover {
   background-color: var(--secondary-color);
 }
-/* TEXTE */
 .discover_services_intro h3 {
   font-size: 3rem;
   line-height: 1.15;
@@ -138,7 +133,6 @@ main {
 .services_presentation_intro_p {
   font-size: 1.5rem;
 }
-/* IMAGES */
 .pictures {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -153,13 +147,11 @@ main {
   background: var(--accent-color);
 }
 
-/* grande image à gauche */
 .pictures_div1 {
   grid-row: span 2;
   width: 420px;
 }
 
-/* images */
 .pictures img {
   width: 100%;
   height: 100%;
@@ -167,7 +159,6 @@ main {
   display: block;
   box-shadow: 0 25px 50px rgba(18, 18, 18, 0.35);
 }
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .discover_services {
     grid-template-columns: 1fr;
@@ -198,9 +189,7 @@ main {
   }
 }
 @media (max-width: 768px) {
-  /* ======================
-     HEADER / NAVBAR
-  ====================== */
+
   header {
     padding: 10px 15px;
   }
@@ -218,9 +207,7 @@ main {
     font-size: 1rem;
   }
 
-  /* ======================
-     DISCOVER SERVICES
-  ====================== */
+
   .discover_services {
     display: flex;
     flex-direction: column;
@@ -243,16 +230,12 @@ main {
     justify-content: center;
   }
 
-  /* ======================
-     REMOVE IMAGES ON MOBILE
-  ====================== */
+ 
   .pictures {
     display: none;
   }
 
-  /* ======================
-     SERVICES SECTION
-  ====================== */
+ 
   .services {
     padding: 2rem 1.5rem;
   }
@@ -278,9 +261,7 @@ main {
     border-radius: 15px;
   }
 
-  /* ======================
-     BLIT SECTIONS
-  ====================== */
+
   .blit-section {
     flex-direction: column;
     gap: 1.5rem;
@@ -288,7 +269,7 @@ main {
   }
 
   .blit-section .blit-visual {
-    display: none; /* remove images on mobile */
+    display: none;
   }
 
   .blit-content h3 {
@@ -303,7 +284,6 @@ main {
     font-size: 0.95rem;
   }
 }
-/* ===== TABLETTE (1024px) ===== */
 @media (max-width: 1024px) {
   .discover_services {
     padding: 4rem 5%;
@@ -325,7 +305,6 @@ main {
     grid-row: span 1;
   }
 
-  /* ===== SERVICES SECTION ===== */
   .services_page {
     padding: 3rem 5%;
     gap: 2rem;
@@ -354,7 +333,6 @@ main {
     width: fit-content;
   }
 
-  /* ===== BLIT SECTIONS ===== */
   .blit-section {
     grid-template-columns: 1fr;
     padding: 2rem;

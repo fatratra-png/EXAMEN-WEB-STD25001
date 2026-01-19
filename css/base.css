@@ -5,9 +5,9 @@
 }
 
 :root {
-  --primary-color: #0a3139; /* Bleu très foncé du logo */
-  --secondary-color: #1b749c; /* Bleu intermédiaire */
-  --accent-color: #c9c9c9; /* Gris clair */
+  --primary-color: #0a3139; 
+  --secondary-color: #1b749c; 
+  --accent-color: #c9c9c9; 
   --white: #f8f9fa;
   --black: #121212;
 
@@ -21,7 +21,7 @@ body {
 body > *:not(header, footer) {
   animation: fade 0.8s ease-in-out;
 }
-url(../../../../..) @keyframes fade {
+@keyframes fade {
   0% {
     opacity: 0;
     transform: scale(0.98);

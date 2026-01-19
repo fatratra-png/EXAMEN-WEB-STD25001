@@ -75,7 +75,7 @@ span {
     var(--secondary-color)
   );
   color: var(--white);
-  /* max-width: 800px; */
+
 }
 .extra_card h4 {
   margin-bottom: 0.5rem;
@@ -226,9 +226,7 @@ button:hover {
     padding: 1.5rem;
   }
 }
-/* =========================
-   CONTACT – TABLETTE
-========================= */
+
 @media (max-width: 1024px) {
   .contact_main {
     grid-template-columns: 1fr;

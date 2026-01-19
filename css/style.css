@@ -289,7 +289,6 @@
   }
 }
 @media (max-width: 768px) {
-  /* ========== HEADER ========== */
   header {
     padding: 10px 15px;
   }
@@ -307,12 +306,9 @@
     font-size: 1rem;
   }
 
-  /* Hamburger already exists in nav_footer.css */
-  /* Just keep it responsive */
 
-  /* ========== MAIN HERO ========== */
   .index_main {
-    padding: 10rem 20px 3rem; /* push content down (header fixed) */
+    padding: 10rem 20px 3rem; 
     min-height: 80vh;
     background-size: cover;
   }
@@ -345,7 +341,6 @@
     text-align: center;
   }
 
-  /* ========== ABOUT SECTION ========== */
   .about {
     flex-direction: column;
     padding: 30px 20px;
@@ -361,7 +356,7 @@
   }
 
   .about_image {
-    display: none; /* REMOVE IMAGE ON MOBILE */
+    display: none; 
   }
 
   .about_cta {
@@ -369,7 +364,6 @@
     text-align: center;
   }
 
-  /* ========== WHY TRUST SECTION ========== */
   .why_trust {
     padding: 30px 20px;
     margin: 30px 15px;
@@ -388,7 +382,6 @@
     grid-template-columns: 1fr;
   }
 
-  /* ========== SERVICES SECTION ========== */
   .services {
     padding: 30px 20px;
     margin-block: 30px;
@@ -426,7 +419,6 @@
     margin-top: 20px;
   }
 
-  /* ========== SATISFIED PARTNERS ========== */
   .satisfied_partners {
     padding: 30px 20px;
     margin: 30px 15px 40px;
@@ -449,9 +441,7 @@
     max-width: 120px;
   }
 }
-/* =========================
-   TABLETTE (≤1024px)
-========================= */
+
 @media (max-width: 1024px) {
   body {
     overflow-x: hidden;
@@ -461,12 +451,10 @@
     max-width: 100%;
   }
 
-  /* ===== HERO ===== */
   .index_main {
     padding: 8rem 30px 4rem;
   }
 
-  /* ===== ABOUT ===== */
   .about {
     flex-direction: column;
     padding: 40px 30px;
@@ -488,17 +476,14 @@
     height: auto;
   }
 
-  /* ===== WHY TRUST ===== */
   .why_trust ul {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* ===== SERVICES ===== */
   .services_grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* ===== PARTNERS ===== */
   .satisfied_partners {
     max-width: 100%;
   }
@@ -508,9 +493,7 @@
     margin-inline: auto;
   }
 }
-/* =========================
-   MOBILE (≤480px)
-========================= */
+
 @media (max-width: 480px) {
   body {
     overflow-x: hidden;
