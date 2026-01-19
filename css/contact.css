@@ -75,7 +75,6 @@ span {
     var(--secondary-color)
   );
   color: var(--white);
-
 }
 .extra_card h4 {
   margin-bottom: 0.5rem;
