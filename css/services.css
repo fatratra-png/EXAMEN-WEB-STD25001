@@ -302,13 +302,9 @@ main {
   .blit-features {
     font-size: 0.95rem;
   }
-
-  
-
 }
 /* ===== TABLETTE (1024px) ===== */
 @media (max-width: 1024px) {
-
   .discover_services {
     padding: 4rem 5%;
     grid-template-columns: 1fr;

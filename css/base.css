@@ -18,11 +18,10 @@ body {
   background-color: var(--white);
   color: var(--black);
 }
-body > *:not(header,footer) {
+body > *:not(header, footer) {
   animation: fade 0.8s ease-in-out;
-}url(../../../../..)
-
-@keyframes fade {
+}
+url(../../../../..) @keyframes fade {
   0% {
     opacity: 0;
     transform: scale(0.98);

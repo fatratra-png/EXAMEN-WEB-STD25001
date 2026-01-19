@@ -230,7 +230,6 @@ button:hover {
    CONTACT – TABLETTE
 ========================= */
 @media (max-width: 1024px) {
-
   .contact_main {
     grid-template-columns: 1fr;
     gap: 3rem;

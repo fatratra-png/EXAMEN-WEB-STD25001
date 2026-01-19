@@ -453,7 +453,6 @@
    TABLETTE (≤1024px)
 ========================= */
 @media (max-width: 1024px) {
-
   body {
     overflow-x: hidden;
   }
@@ -513,12 +512,12 @@
    MOBILE (≤480px)
 ========================= */
 @media (max-width: 480px) {
-
   body {
     overflow-x: hidden;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     word-wrap: break-word;
   }
 

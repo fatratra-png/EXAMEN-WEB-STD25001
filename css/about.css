@@ -576,7 +576,7 @@ main .hero h3 {
   .main_about > *:not(.hero) {
     margin-inline: 15px;
   }
-    footer {
+  footer {
     padding: 40px 20px;
   }
 
@@ -608,7 +608,6 @@ main .hero h3 {
    ABOUT – PARTNERS TABLET FIX
 ========================= */
 @media (max-width: 1024px) {
-
   .trust .trust_logos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

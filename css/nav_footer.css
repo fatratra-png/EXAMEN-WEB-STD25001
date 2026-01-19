@@ -348,7 +348,7 @@ footer hr {
   #menu-toggle:checked + .hamburger + .navbar {
     display: flex;
   }
-    footer {
+  footer {
     padding: 40px 20px;
   }
 
@@ -380,7 +380,6 @@ footer hr {
    NAVBAR - TABLETTE
 ========================= */
 @media (max-width: 1024px) {
-
   header {
     padding: 1.2rem 5%;
   }
@@ -393,4 +392,3 @@ footer hr {
     font-size: 0.95rem;
   }
 }
-
