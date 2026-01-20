@@ -96,8 +96,8 @@ main {
 }
 .cta_request_services_page {
   text-decoration: none;
-  padding: 20px 34px;
-  border-radius: 20px;
+  padding: 20px 40px;
+  border-radius: 10px;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
   background-color: var(--black);
