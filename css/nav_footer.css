@@ -352,3 +352,68 @@ footer hr {
     font-size: 0.95rem;
   }
 }
+/*Pour pixel de Dr Toky*/
+@media screen and (max-width: 430px) {
+  header {
+    padding: 0.8rem 1rem;
+  }
+
+  .blit_logo img {
+    height: 52px;
+  }
+
+  .navbar {
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 1rem;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar a {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+
+  .navbar .active {
+    padding: 12px 0;
+    border-radius: 12px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  footer {
+    padding: 35px 16px 25px;
+  }
+
+  .footer_description {
+    max-width: 100%;
+  }
+
+  .cta_linkedin {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .newsletter input,
+  .newsletter button {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .social_media {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
