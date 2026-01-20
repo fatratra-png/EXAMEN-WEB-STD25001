@@ -39,7 +39,7 @@
   line-height: 1.6;
   font-size: 1.5rem;
 }
-#contact_reason option:disabled{
+#contact_reason option:disabled {
   color: var(--accent-color);
 }
 span {
