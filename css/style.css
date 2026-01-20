@@ -530,3 +530,91 @@
     max-width: 100px;
   }
 }
+/*Pour Dr Toky*/
+@media screen and (max-width: 430px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    max-width: 100%;
+  }
+
+  .index_main {
+    border-radius: 0;
+    padding: 6.5rem 15px 3rem;
+    background-size: cover;
+  }
+
+  .main_title {
+    font-size: 1.8rem;
+  }
+
+  .main_blit {
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+  }
+
+  .main_subtitle {
+    font-size: 1.2rem;
+  }
+
+  .main_description {
+    font-size: 0.95rem;
+  }
+  .main_cta {
+    width: 100%;
+  }
+
+  .cta_services,
+  .cta_request {
+    width: 100%;
+    padding: 14px 0;
+  }
+
+  .about {
+    padding: 25px 15px;
+  }
+
+  .about_text h2 {
+    font-size: 1.8rem;
+  }
+
+  .why_trust {
+    margin-inline: 5px;
+    padding: 25px 5px;
+    border-radius: 20px;
+  }
+
+  .why_trust h2 {
+    font-size: 1.8rem;
+  }
+
+  .services {
+    padding: 25px 15px;
+  }
+
+  .services h2 {
+    font-size: 1.8rem;
+  }
+
+  .satisfied_partners {
+    margin-inline: 10px;
+    padding: 25px 15px;
+    border-radius: 20px;
+  }
+
+  .partners_logos {
+    gap: 15px;
+  }
+
+  .partners_logos .logo {
+    flex: 0 1 90px;
+  }
+
+  .partners_logos .logo img {
+    max-width: 90px;
+  }
+}
+

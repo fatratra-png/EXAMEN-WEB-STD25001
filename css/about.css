@@ -583,3 +583,124 @@ main .hero h3 {
     max-width: 120px;
   }
 }
+
+/*Pour Dr Toky*/
+@media screen and (max-width: 430px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .main_about {
+    margin-top: 70px;
+  }
+
+  .main_about > *:not(.hero) {
+    margin-inline: 12px;
+  }
+
+  h2, h3 {
+    word-break: break-word;
+  }
+
+  .hero {
+    padding: 30px 15px 50px;
+    border-radius: 0;
+  }
+
+  .hero_text h3 {
+    font-size: 1.8rem;
+  }
+
+  .hero_text p {
+    font-size: 0.95rem;
+  }
+
+  .hero_cta {
+    gap: 12px;
+  }
+
+  .btn_1,
+  .btn_2 {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 0.95rem;
+  }
+
+  .hero_stats {
+    margin-top: 40px;
+    gap: 20px;
+  }
+
+  .stat strong {
+    font-size: 2.2rem;
+  }
+
+  .stat span {
+    font-size: 0.95rem;
+  }
+
+  .trust {
+    margin: 50px 10px;
+  }
+
+  .trust h3 {
+    font-size: 1.6rem;
+  }
+
+  .trust .trust_logos {
+    gap: 15px;
+  }
+
+  .trust img {
+    max-width: 90px;
+  }
+
+  .kpi {
+    margin: 70px 10px;
+  }
+
+  .kpi-card strong {
+    font-size: 2.2rem;
+  }
+
+  .projects {
+    margin: 70px 10px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .process {
+    margin: 70px 10px;
+  }
+
+  .process-steps {
+    flex-direction: column;
+  }
+
+  .about-cta {
+    margin: 70px 10px;
+    padding: 45px 15px;
+    border-radius: 18px;
+  }
+
+  .about-cta h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-cta p {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1rem;
+  }
+}

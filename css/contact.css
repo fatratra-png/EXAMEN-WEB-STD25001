@@ -261,3 +261,89 @@ button:hover {
     padding: 2.5rem;
   }
 }
+@media screen and (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .contact_main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.5rem 12px;
+    margin-top: 70px;
+  }
+
+  .contact_left h2 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .intro {
+    font-size: 1rem;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .manual {
+    text-align: center;
+  }
+
+  .cta_contact {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 1rem;
+  }
+
+  .main_row {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .illustration {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+  }
+
+  .extra_blocks {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .extra_card h4 {
+    font-size: 1.2rem;
+  }
+
+  .extra_card p {
+    font-size: 1rem;
+  }
+
+  .contact_form {
+    padding: 1.8rem 1rem;
+    border-radius: 18px;
+  }
+
+  .form_row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 0.95rem;
+  }
+
+  textarea {
+    height: 130px;
+  }
+
+  .submit_button,
+  .undo_button {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1rem;
+  }
+}
